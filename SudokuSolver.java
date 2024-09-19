@@ -3,7 +3,7 @@ import java.util.Random;
 public class SudokuSolver {
     private static final int SIZE = 9; // Size of the Sudoku grid
     private static final int EMPTY = 0; // Empty cells are denoted by 0
-    private static final int DIFFICULTY = 40; // Number of cells to remove for the puzzle
+    private static final int DIFFICULTY = 40; 
 
     public static void main(String[] args) {
         int[][] board = generateSudokuPuzzle();
